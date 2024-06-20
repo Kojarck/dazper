@@ -1,81 +1,79 @@
 * {
-    font-family: "Poppins", sans-serif;
-    background-color: #d9d9d9;
+  font-family: "Poppins", sans-serif;
+  background-color: #d9d9d9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 97vh;
+  padding-bottom: 10px;
+  gap: 295px;
+}
+
+.boxBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  > p {
+    width: 57%;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: 300;
   }
-  
-  .container {
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid #dad3d3;
+  border-radius: 108px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+input {
+  width: 650px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  > div {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    height: 97vh;
-    padding-bottom: 10px;
-    gap: 295px;
-  }
-  
-  .boxBody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.5rem;
+
+    font-family: "Jost", sans-serif;
+    color: #5e5e5e;
+
+    position: relative;
+    bottom: 50px;
+
+    > span {
+      font-size: 18px;
+    }
+
     > p {
-      width: 57%;
-      text-align: center;
-      color: #5a5a5a;
-      font-size: 15px;
-      font-weight: 300;
+      font-size: 22px;
+      font-weight: 500;
     }
   }
-  
-  .search {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border: 2px solid #dad3d3;
-    border-radius: 108px;
-    justify-content: space-between;
-    gap: 16px;
+
+  > img {
+    position: absolute;
+    top: 553px;
+    right: 540px;
   }
-  
-  input {
-    width: 650px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-  
-    > div {
-      display: flex;
-      align-items: baseline;
-      justify-content: center;
-      gap: 0.5rem;
-  
-      font-family: "Jost", sans-serif;
-      color: #5e5e5e;
-  
-      position: relative;
-      bottom: 50px;
-  
-      > span {
-        font-size: 18px;
-      }
-  
-      > p {
-        font-size: 22px;
-        font-weight: 500;
-      }
-    }
-  
-    > img {
-      position: absolute;
-      top: 573px;
-      right: 590px;
-      scale: 90%;
-    }
-  }
-  
+}
